@@ -1,2 +1,2 @@
-# evie
+# Evie
 My artistic portfolio
