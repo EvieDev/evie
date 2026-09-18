@@ -1,7 +1,3 @@
-/* =========================
-   RESET
-   ========================= */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -134,16 +130,20 @@ a {
     opacity: 0.6;
 }
 
+.gallery-section {
+    padding: 5vw;
+}
+
 .gallery-section > .eyebrow {
-    margin-left: 90px;
-    margin-bottom: -20px;
-    margin-top: 130px;
+    margin: 0 0 1rem 0;
 }
 
 .gallery {
-    margin-left: -5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    padding: 0;
 }
-
 
 /* =========================
    ABOUT
@@ -194,7 +194,5 @@ footer {
     .about {
         grid-template-columns: 1fr;
     }
-
-}
 
 }
